@@ -1,0 +1,132 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: linear-gradient(135deg, #413aa5, #692e82, #822e5b);
+}
+
+.header {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-size: cover;
+    color: #ffffff;
+    padding: 40px 20px;
+}
+
+.foto-perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.links a{
+    margin: 12px;
+    color: #f4f4f9;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 8px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.links a:cor{
+    background-color: #fff;
+    color: #ffffff;
+}
+
+.sobre-mim {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.sobre-mim h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.projetos {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.projetos h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.projetos-caixa {
+    display: inline-block;
+    width: 280px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+}
+
+.projetos-caixa img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.projetos-caixa h3 {
+    padding: 20px 15px 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.projetos-caixa p {
+    padding: 0 15px 20px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.projetos-caixa a {
+    display: block;
+    padding: 10px 15px;
+    background-color: #692e82;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.projetos-caixa a:hover {
+    background-color: #3e1b4d;
+}
+
+
+.rodape {
+    padding: 20px;
+    text-align: center;
+    background-color: #692e82;
+    color: #fff;
+}
+
+.rodape p {
+    font-size: 0.9em;
+}

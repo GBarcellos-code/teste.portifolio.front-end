@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="foto-perfil">
+            <img src="imagens/foto perfil.jpeg" alt="foto">
+        </div>
+        <h1>Gabriel Barcallos</h1>
+        <p>Desenvolvedor Front-end | Programador | Designer<br></br></p>
+        <div class="links">
+            <a href="https://github.com/GBarcellos-code" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/gabriel-barcellos-b8b715306/" target="_blank">LinkedIn</a>
+        </div>
+    </header>
+
+    <section class="sobre-mim">
+        <h2>Sobre Mim</h2>
+        <p>Sou um desenvolvedor com paixão por criar interfaces modernas e soluções eficientes. Tenho experiência em HTML, CSS, JavaScript, além de conhecimento em back-end em linguagem C e python. Estou sempre buscando aprender novas tecnologias e melhorar minhas habilidades para entregar os melhores resultados.</p>
+    </section>
+
+    <section class="projetos">
+        <h2>Projetos</h2>
+        <div class="projetos-caixa">
+            <img src="imagens/zaitt01.webp" alt="Projeto 1">
+            <h3>Sistema de mercado</h3>
+            <p>Sistema que simula um mercado online de compras de um mercado.</p>
+            <a href="https://github.com/GBarcellos-code/sistema.mercado" target="_blank">Ver no GitHub</a>
+        </div>
+        <div class="projetos-caixa">
+            <img src="imagens/2014-07-04-youtube.webp" alt="Projeto 2">
+            <h3>Cópia Youtube</h3>
+            <p>Uma cópia da tela inicial do Youtube.</p>
+            <a href="https://github.com/seu-usuario/projeto2" target="_blank">Ver no GitHub</a>
+        </div>
+        <div class="projetos-caixa">
+            <img src="imagens/portfolio-1200x675-c.webp" alt="Projeto 3">
+            <h3>Portifólio pessoal</h3>
+            <p>Códigos HTML e Css da página deste portifólio.</p>
+            <a href="https://github.com/GBarcellos-code/teste.portifolio.front-end" target="_blank">Ver no GitHub</a>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Gabriel Barcellos &copy; 2024</p>
+    </footer>
+
+</body>
+</html>
